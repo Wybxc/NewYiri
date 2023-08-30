@@ -1,6 +1,6 @@
 # NewYiri
 
-本地运行的**小型**聊天机器人语言模型，运行时内存占用 ~20.5 MB。
+本地运行的**小型**聊天机器人语言模型。
 
 ## 运行
 
@@ -23,7 +23,7 @@ NEW_YIRI_MODEL=wybxc/new-yiri NEW_YIRI_REVISION=b78622b6eed30e7ea591f9cb17dd3264
 #### License
 
 <sup>
-Licensed under the [Apache License, Version 2.0](LICENSE) (the "License");
+Licensed under the <a href="LICENSE">Apache License, Version 2.0</a> (the "License");
 you may not use this file except in compliance with the License.
 </sup>
 
