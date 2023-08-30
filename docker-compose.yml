@@ -1,0 +1,14 @@
+version: "3"
+services:
+  yiri:
+    build: .
+    dns: 
+      - 223.5.5.5
+      - 223.6.6.6
+    environment:
+      - NEW_YIRI_MODEL=wybxc/new-yiri
+      - NEW_YIRI_REVISION=b78622b6eed30e7ea591f9cb17dd326401bd553c
+    volumes:
+      - ./.cache:/.cache
+    ports:
+      - "6001:6001"

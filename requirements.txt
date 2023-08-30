@@ -4,3 +4,4 @@ tokenizers==0.13.2
 torch==2.0.0+cpu
 transformers==4.27.4
 uvicorn==0.21.1
+psutil==5.9.4

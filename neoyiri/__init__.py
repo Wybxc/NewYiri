@@ -12,7 +12,7 @@ logger.add("logs/{time}.log", rotation="1MB", compression="zip")
 
 
 class Limiter:
-    def __init__(self, whitelist: list[str]):
+    def __init__(self, whitelist):
         self.whitelist = whitelist
         self.records = defaultdict(deque)
 
